@@ -1,0 +1,84 @@
+/* Ensure the html and body take up the full height of the viewport */
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+/* Styling for the login page */
+body {
+  background-image: url('../images/header_img.jpg');
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+/* Styling for the login container */
+.login-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+}
+
+/* Styling for the login container */
+.login-container {
+  background-color: rgba(108, 106, 106, 0.85);
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  width: 450px; /* Increase width */
+  max-width: 100%; /* Allow it to use full width on larger screens */
+  padding: 40px;
+}
+
+
+/* Form and input fields */
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+input {
+  margin: 10px 0;
+  padding: 12px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 100%;
+}
+
+button {
+  background-color: #358038;
+  color: white;
+  padding: 12px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+/* Typography */
+h2 {
+  color: #100e0e;
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+p {
+  color: #666;
+  margin-top: 20px;
+}
+
+a {
+  color: #4CAF50;
+  text-decoration: none;
+}

@@ -1,0 +1,46 @@
+/* MentorCard.css */
+
+.mentor-card {
+  display: flex;
+  align-items: center;
+  border: 1px solid #ddd;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 8px;
+}
+
+.mentor-photo {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  margin-right: 20px;
+}
+
+.mentor-info {
+  flex: 1;
+}
+
+h2 {
+  display: flex;
+  align-items: center;
+  margin-bottom: 5px;
+}
+
+.availability-dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  margin-left: 10px;
+}
+
+.available {
+  background-color: green;
+}
+
+.unavailable {
+  background-color: gray;
+}
+
+.mentor-info p {
+  margin: 5px 0;
+}

@@ -1,0 +1,30 @@
+.filter-sort-section {
+  padding: 20px;
+  background-color: #b9ea6b;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  margin: 20px 0;
+}
+
+.filter-sort-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.filter-sort-container div {
+  flex: 1;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+select {
+  width: 80%;
+  padding: 8px;
+  border-radius: 15px;
+  border: 1px solid #ccc;
+}
